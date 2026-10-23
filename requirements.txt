@@ -1,0 +1,13 @@
+# Required (versions this prototype was built and tested with)
+cryptography>=50.0.1   # must include ML-KEM (mlkem module) and AES-GCM / X25519 / HKDF
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+tabulate>=0.9          # pandas .to_markdown() in experiments.py
+flask>=3.0             # dashboard
+
+# Optional, NOT used by the code yet (see README "Next steps")
+# qiskit
+# qiskit-aer
+# paho-mqtt            # only needed for qshield.transport.MqttBroker
+# pytest               # tests are plain unittest and also run under pytest
